@@ -1,16 +1,3 @@
-# Nest js notes
-
-## Controller
-
-The only task of controller is to accept http request and send response.
-
-**To create controller use following nest cli command**
-
-`nest g controller name-of-controller`
-
-Example of a controller
-
-```
 import { Controller, Delete, Get, Param, Post, Put, Req } from '@nestjs/common';
 import { Request } from 'express';
 
@@ -40,6 +27,3 @@ export class StudentController {
     return 'Student Deleted';
   }
 }
-```
-
-@Controller, @Get, @Post, @Put, @Delete decorators are provided by nest js
