@@ -1,5 +1,9 @@
 # Nest js notes
 
+## Installation
+
+`npm i -g @nestjs/cli`
+
 ## Controller
 
 The only task of controller is to accept http request and send response.
@@ -43,3 +47,12 @@ export class StudentController {
 ```
 
 @Controller, @Get, @Post, @Put, @Delete decorators are provided by nest js
+
+
+## Create a resource with everything realated to that
+
+`nest g resourse student`
+
+# Important links and software
+
+[Select Query Builder]typeorm.io/#/select-query-builder
