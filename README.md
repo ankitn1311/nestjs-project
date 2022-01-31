@@ -55,4 +55,4 @@ export class StudentController {
 
 # Important links and software
 
-[Select Query Builder]typeorm.io/#/select-query-builder
+Select Query Builder[typeorm.io/#/select-query-builder]
