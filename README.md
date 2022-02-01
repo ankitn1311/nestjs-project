@@ -56,3 +56,5 @@ export class StudentController {
 # Important links and software
 
 Select Query Builder[typeorm.io/#/select-query-builder]
+
+AdminJS / Admin Bro - [https://docs.adminjs.co/]
